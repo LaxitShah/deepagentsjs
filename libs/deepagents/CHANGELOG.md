@@ -1,5 +1,13 @@
 # deepagents
 
+## 1.17.1
+
+### Patch Changes
+
+- [#557](https://github.com/langchain-ai/deepagentsjs/pull/557) [`e21fb23`](https://github.com/langchain-ai/deepagentsjs/commit/e21fb23ec369c87f79e2bb01ef116f791431d662) Thanks [@johannes117](https://github.com/johannes117)! - fix(acp): run the filesystem backend in virtual mode so tool searches stay within the workspace instead of scanning (and crashing on) the host filesystem
+
+- [#1084](https://github.com/langchain-ai/deepagentsjs/pull/1084) [`e261b7c`](https://github.com/langchain-ai/deepagentsjs/commit/e261b7c94625993947b591e37ed501c2d8f206ec) Thanks [@hntrl](https://github.com/hntrl)! - fix(deepagents): align the edit_file prompt with Python by removing the incorrect claim that editing an unread file raises an error
+
 ## 1.17.0
 
 ### Minor Changes
